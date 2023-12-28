@@ -53,4 +53,16 @@ To use Tawajo Net, instantiate it by calling `create_model(trainX, trainy)`, whe
 ```python
 tawajo_net = create_model(trainX, trainy)
 tawajo_net.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-tawajo_net.fit(trainX, trainy, epochs=10, batch_size=32, validation_data=(valX, valy))
+tawajo_net.fit(trainX, trainy, epochs=10, batch_size=32, validation_data=(valX, valy))```
+
+Feel free to customize the model architecture and parameters according to your specific HAR requirements.
+
+## Dependencies
+TensorFlow (>=2.0)
+Keras (>=2.0)
+
+## Article Under Review
+The results of Tawajo Net on the Human Activity Recognition dataset by Wisdom Lab are detailed in an article currently under review at an IEEE journal.
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
