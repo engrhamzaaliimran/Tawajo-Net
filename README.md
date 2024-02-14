@@ -1,6 +1,6 @@
 # Tawajo Net: Human Activity Recognition Neural Network
 
-This repository contains the implementation of Tawajo Net, a neural network designed for Human Activity Recognition (HAR). The model integrates bidirectional GRU layers, attention mechanisms, and various convolutional layers to effectively capture intricate patterns in sequential data. Tawajo Net has been trained and evaluated on the Human Activity Recognition dataset by Wisdom Lab. The results of this study are detailed in an article currently under review at an IEEE journal.
+This repository contains the implementation of Tawajo Net, a neural network designed for Human Activity Recognition (HAR). The model integrates bidirectional GRU layers, attention mechanisms, and various convolutional layers to effectively capture intricate patterns in sequential data. Tawajo Net has been trained and evaluated on the Human Activity Recognition dataset by Wisdom Lab. The results of this study are detailed in an article currently under review in a journal.
 
 ## Network Architecture
 
@@ -62,7 +62,7 @@ TensorFlow (>=2.0)
 Keras (>=2.0)
 
 ## Article Under Review
-The results of Tawajo Net on the Human Activity Recognition dataset by Wisdom Lab are detailed in an article currently under review at an IEEE journal.
+The results of Tawajo Net on the Human Activity Recognition dataset by Wisdom Lab are detailed in an article currently under review in a journal.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
